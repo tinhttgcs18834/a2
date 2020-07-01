@@ -5,6 +5,7 @@
   "description": "make by gcs18834",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm run build",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
